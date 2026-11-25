@@ -1,8 +1,7 @@
-package pathfinding;
-
+package app.algorithms;
 import java.util.*;
-import model.Cell;
-import model.Grid;
+import app.gui.Cell;
+import app.gui.Grid;
 
 public class PathRequest {
     private final Grid grid;
