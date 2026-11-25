@@ -1,10 +1,12 @@
+package test;
+
 import java.util.*;
-import model.Cell;
-import model.Grid;
-import model.Path;
-import pathfinding.BFSPathFinder;
-import pathfinding.PathFinder;
-import pathfinding.PathRequest;
+import app.gui.Cell;
+import app.gui.Grid;
+import app.gui.Path;
+import app.algorithms.BFSPathFinder;
+import app.algorithms.PathFinder;
+import app.algorithms.PathRequest;
 
 public class BFSPathFinderTest {
 
