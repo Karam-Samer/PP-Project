@@ -1,9 +1,9 @@
-package pathfinding;
+package app.algorithms;
 
 import java.util.*;
-import model.Cell;
-import model.Grid;
-import model.Path;
+import app.gui.Cell;
+import app.gui.Grid;
+import app.gui.Path;
 
 public class BFSPathFinder implements PathFinder {
 
