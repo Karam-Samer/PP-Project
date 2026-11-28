@@ -53,7 +53,7 @@ if ($NeedsCompilation) {
 }
 
 # Execute test
-& java -cp "$Dist;$TestOutput" $TestClass
+& java -cp "$Dist;$TestOutput" "test.$TestClass"
 
 if ($LASTEXITCODE -ne 0) {
     throw "Test execution failed!"
